@@ -1,10 +1,14 @@
 <img width="554" alt="image" src="https://github.com/santhoshilaxmi/djangoPractice/assets/38223932/19ac6d27-280a-4df7-9518-f9e02dc6ff00">
 
 Django is a framework which gives flexibility to built the backend of the web application in python.
+
 it works based on the MVT model, M- Model V- View T Template
+
 for different projects we might need different versions of Django, so lets create a virtual environment 
+
 create virtual env wrappwe - >pip install virtualenvwrapper-win
-app_data_dir=C:\Users\admin\AppData\Local\pypa\virtualenv)
+app_data_dir=C:\Users\admin\Envs)
+
 create virtual env - mkvirtualenv test
 now install Django in the virtualenv(test) pip install django and this Django is available only to this virtualenv notto the entire computer
 
