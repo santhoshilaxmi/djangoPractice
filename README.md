@@ -51,7 +51,9 @@ urlpatterns =[
 now write a defination home in the views.py, this defination accepts the request as argument and it need to retyrn response in the HttpResponse format 
 
 def home(request):
+
     return HttpResponse("Hello World")
+    
     
 now go to the main project urls and include this calc/urls.py as 
 
