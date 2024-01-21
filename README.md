@@ -38,13 +38,15 @@ and in the urls.py
 urlpatterns =[
 
     path('',views.home, name='home')
+
+]
+
 **' '** - this is used for home page 
 
 
 **view.home** - this is the defination which need to be called when loading the home page, basically view will have all the code/content which we see in the home page
 
 
-]
 
 now write a defination home in the views.py, this defination accepts the request as argument and it need to retyrn response in the HttpResponse format 
 
