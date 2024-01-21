@@ -58,8 +58,11 @@ def home(request):
 now go to the main project urls and include this calc/urls.py as 
 
 urlpatterns = [
+
     path('admin/', admin.site.urls),
+    
     path('', include('calc.urls')),
+    
 ]
 
 so whenever the home page is called it will go to calc.urls
