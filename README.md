@@ -32,12 +32,14 @@ Now, we create a first app called calc in the virtual env by python manage.py st
 
 **URL mapping :**
 create a urls.py in the calc as the existing urls in the home project is for the entire project not just for calc
+
 and in the urls.py 
+
 urlpatterns =[
 
     path('',views.home, name='home')
-' ' - this is used for home page 
-view.home - this is the defination which need to be called when loading the home page, basically view will have all the code/content which we see in the home page
+**' '** - this is used for home page 
+**view.home** - this is the defination which need to be called when loading the home page, basically view will have all the code/content which we see in the home page
 
 
 ]
