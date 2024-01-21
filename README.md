@@ -87,6 +87,12 @@ and the other html file should start **{% block content %}** and end with **{% e
 we can also create the static file under the template and set that static files dir in settings.py file
 
 
+Also run a command to collect static so that Django will create a folder by itself and save all the static files 
+
+
+{ % load static % } should be included at the start of the file 
+
+
 
 
 
