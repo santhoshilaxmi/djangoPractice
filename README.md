@@ -84,6 +84,9 @@ and also in the body of the base.html you should include something like this
 and the other html file should start **{% block content %}** and end with **{% end block %}**
 
 
+we can also create the static file under the template and set that static files dir in settings.py file
+
+
 
 
 
