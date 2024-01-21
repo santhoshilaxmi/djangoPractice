@@ -76,11 +76,12 @@ generally we create base.html which we will import in to other html files as **{
 and also in the body of the base.html you should include something like this 
 
 **
-{% block content %}
-{% endblock %}
+**{% block content %}**
+
+**{% endblock %}**
 **
 
-and the other html file should start {% block content %} and end with {% end block %}
+and the other html file should start **{% block content %}** and end with **{% end block %}**
 
 
 
