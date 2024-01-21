@@ -69,6 +69,20 @@ so whenever the home page is called it will go to calc.urls
 
 **Django Template:(DT language)**
 
+Template will have the html files
+
+generally we create base.html which we will import in to other html files as **{% extends 'base.html' %} ** at the start of other files
+
+and also in the body of the base.html you should include something like this 
+
+**
+{% block content %}
+{% endblock %}
+**
+
+and the other html file should start {% block content %} and end with {% end block %}
+
+
 
 
 
