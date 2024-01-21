@@ -45,14 +45,19 @@ urlpatterns =[
 
 
 ]
+
 now write a defination home in the views.py, this defination accepts the request as argument and it need to retyrn response in the HttpResponse format 
+
 def home(request):
     return HttpResponse("Hello World")
+    
 now go to the main project urls and include this calc/urls.py as 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('calc.urls')),
 ]
+
 so whenever the home page is called it will go to calc.urls
 
 **Django Template:(DT language)**
