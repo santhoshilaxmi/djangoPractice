@@ -26,10 +26,11 @@ Now we opened the project in pycharm
 ![image](https://github.com/santhoshilaxmi/djangoPractice/assets/38223932/d58a8350-9d1b-4f8f-81b4-194c4c40c4ef)
 
  
-for us to switch to virtual envs run activate.bat file under the scripts in virtualenv 
+for us to switch to virtual envs run activate.bat file under the scripts in virtualenv located in Envs
 
-Now, we create a first app called calc, startapp calc 
-URL mapping :
+Now, we create a first app called calc in the virtual env by python manage.py startapp calc 
+
+**URL mapping :**
 create a urls.py in the calc as the existing urls in the home project is for the entire project not just for calc
 and in the urls.py 
 urlpatterns =[
@@ -50,7 +51,7 @@ urlpatterns = [
 ]
 so whenever the home page is called it will go to calc.urls
 
-Django Template:(DT language)
+**Django Template:(DT language)**
 
 
 
